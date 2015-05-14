@@ -1,0 +1,34 @@
+[
+  {
+    "trackId": "46",
+    "tags": [
+      "sad",
+      "sunday",
+      "monday"
+    ]
+  }, 
+   {
+    "trackId": "32",
+    "tags": [
+      "happy",
+      "saturday",
+      "cool"
+    ]
+  },
+   {
+    "trackId": "2435",
+    "tags": [
+      "happy",
+      "saturday",
+      "cool"
+    ]
+  },
+   {
+    "trackId": "8098",
+    "tags": [
+      "angry",
+      "sunday",
+      "rock"
+    ]
+  }
+]

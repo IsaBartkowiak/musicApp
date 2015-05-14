@@ -1,0 +1,11 @@
+<form name="addForm" ng-controller="AddCtrl" ng-submit="AddCtrl.addProduct(product)">
+
+  <!--  Review Form -->
+  <h4>Submit a product</h4>
+  <fieldset class="form-group">
+    <input type="text" ng-model="AddCtrl.product.name" class="form-control" placeholder="Name" title="name"></input>
+  </fieldset>
+  <fieldset class="form-group">
+    <input type="submit" class="btn btn-primary pull-right" value="Submit Review" />
+  </fieldset>
+</form>
