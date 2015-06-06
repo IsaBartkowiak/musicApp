@@ -8,6 +8,7 @@
  *
  * Main module of the application.
  */
+angular.module('controllers', []);
 angular
   .module('reTestApp', [
     'ngAnimate',
@@ -17,7 +18,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch', 
+    'controllers'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -26,8 +28,8 @@ angular
         controller: 'MainCtrl'
       })
       .when('/add', {
-        templateUrl: 'views/add.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/deezer.html',
+        controller: 'MusicCtrl'
       })
       .otherwise({
         redirectTo: '/404.html'

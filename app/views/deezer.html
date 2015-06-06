@@ -1,0 +1,13 @@
+<div ng-controller="MusicCtrl as music">
+	<span ng-repeat="music in music.tracks">
+		<span>{{music.trackId}}</span>
+		<span class="play-control" ng-click="playTrack()"></span>
+		<br>
+	</span>
+	<span ng-class="playing ? 'play-control play' : 'play-control pause'" ng-click="control()"></span>
+
+
+
+
+
+</div>

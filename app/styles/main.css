@@ -59,6 +59,30 @@ body {
   margin-top: 28px;
 }
 
+.play-control{
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-left: 15px solid black;
+}
+
+.play-control.play{
+    width: 15px;
+  height: 25px;
+  display: block;
+  border-right: 3px solid rgba(47, 46, 46, 1);
+  border-left: 3px solid black;
+  border-top: none;
+  border-bottom: none;
+
+}
+.play-control.pause{
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-left: 15px solid black;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
